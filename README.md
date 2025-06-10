@@ -73,3 +73,26 @@ You should see the server running at: `http://localhost:8080`
 - **Response (completed):** `204 No Content`
 
 
+## Logging
+
+The application uses structured logging to track important events and errors. Logs are written to a file configured in the application settings. There are two main loggers:
+
+- **Info logger**: Records informational messages about normal operations.
+- **Error logger**: Records errors and warnings to help diagnose issues.
+
+The log file `app.log` is created immediately after the server starts, located in the `logs` directory by default.
+
+## Testing
+
+
+```bash
+make test
+```
+
+## Linter
+
+
+```bash
+make lint
+```
+
