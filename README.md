@@ -66,7 +66,7 @@ You should see the server running at: `http://localhost:8080`
     }
   ```
 
-### 3. Get Statistics
+### 3. Delete Task
 - **URL:** `/tasks/{id}`
 - **Method:** `DELETE`
 - **Description:** Deletes a task by its ID.
